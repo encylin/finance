@@ -7,5 +7,8 @@ def get_yahoo_data(start,end):
     print(df.tail())
 
 start = dt.datetime(2020, 9, 1)
-end = dt.datetime(2020, 9, 30)
+end = dt.datetime(2020, 12, 25)
 get_yahoo_data(start,end)
+
+#read https://einvestingforbeginners.com/yahoo-finance-beginners-guide/
+
